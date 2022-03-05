@@ -41,8 +41,6 @@ function main(root, X, display) {
   // run this once a second
   var loopInterval = setInterval(function() {
     // render our canvas and get the PNG data
-    ctx.fillStyle = 'white';
-    ctx.fillRect(0, 0, 500, 500);
     render(loadedImages, ctx);
     var logo = {
       data : Buffer.from(decoder.parse(canvas.toBuffer('image/png'))),
