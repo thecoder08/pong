@@ -1,14 +1,8 @@
 {
-  "dependencies": {
-    "canvas": "^2.9.0",
-    "x11": "github:sidorares/node-x11"
-  },
   "name": "pong",
   "version": "1.0.1",
-  "description": "A pong game",
-  "bin": {
-    "pong": "main.js"
-  },
+  "description": "A pong game.",
+  "main": "index.html",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/thecoder08/pong/issues"
   },
-  "homepage": "https://github.com/thecoder08/pong#readme"
+  "homepage": "https://github.com/thecoder08/pong#readme",
+  "window": {
+    "resizable": false,
+    "width": 500,
+    "height": 500
+  }
 }
